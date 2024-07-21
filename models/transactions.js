@@ -10,9 +10,6 @@ const schema = new Schema({
     price:{
         type: Number,
     },
-    dateofsale: {
-        type: Date,
-    },
     category:{
         type: String
     },
@@ -21,6 +18,9 @@ const schema = new Schema({
     },
     sold:{
         type: Boolean,
+    },
+    dateOfSale: {
+        type: String,
     },
 
  

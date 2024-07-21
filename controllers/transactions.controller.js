@@ -7,7 +7,7 @@ const getTransactions = async(req, res, next) =>{
         res.json(movies);
 
     } catch (error) {
-        console.log(err);
+        console.log(error);
     }
 }
 
